@@ -31,3 +31,4 @@ httpie
 
 # Security
 Flask-Talisman
+Flask-Cors
