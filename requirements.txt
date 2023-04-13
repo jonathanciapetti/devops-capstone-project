@@ -1,25 +1,25 @@
 # Pin dependancies that might cause breakage
-Werkzeug==2.2.2
+Werkzeug
 
 # Build dependencies
-Flask==2.2.2
-Flask-SQLAlchemy==3.0.2
-psycopg2-binary==2.9.5
-python-dotenv==0.21.1
+Flask
+Flask-SQLAlchemy
+psycopg2-binary
+python-dotenv
 
 # Runtime dependencies
-gunicorn==20.1.0
-honcho==1.1.0
+gunicorn
+honcho
 
 # Code quality
-pylint==2.15.10
-flake8==6.0.0
-black==22.3.0
+pylint
+flake8
+black
 
 # Testing dependencies
-nose==1.3.7
-pinocchio==0.4.3
-factory-boy==3.2.1
+nose
+pinocchio
+factory-boy
 
 # Code Coverage
 # coverage  # Requires-Python >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <3.7
@@ -27,4 +27,8 @@ factory-boy==3.2.1
 nose
 
 # Utilities
-httpie==3.2.1
+httpie
+
+# Security
+Flask-Talisman
+Flask-Cors
